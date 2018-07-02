@@ -1,0 +1,17 @@
+header {
+    font-family: arial, sans-serif;
+    color: #222; 
+    text-align: right;
+    font-size: 13px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
