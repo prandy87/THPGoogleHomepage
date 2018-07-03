@@ -3,6 +3,25 @@ header {
     color: #222; 
     text-align: right;
     font-size: 13px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-items: center;
+}
+
+.search_button:hover {
+    color: black;
+    box-shadow: 0px 1px 2px 1px rgba(170, 155, 155, 0.5);
+    
+}
+
+.options {
+    height: 10px;
 }
 
 a {
@@ -10,8 +29,108 @@ a {
     text-decoration: none;
 }
 
+#nav_bar {
+    float: right;
+    margin: 2px;
+    
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 5em;
+}
+
+#nav_footer {
+    float: left;
+    left: 0px;
+    border-top: 5px;
+    
+}
+#nav_footer1 li {
+    
+    display: inline-block;
+    left: 0px;
+    margin-right: 2.5em;
+    margin-top: 16px;
+    
+    
+}
+
+#nav_footer2 li {
+    
+    display: inline-block;
+    left: 0px;
+    margin-left: 3.5em;
+    margin-top: 16px;
+    
+}
+
+
 
 a:hover {
     text-decoration: underline;
 }
+
+.logocont {
+    padding: 30em;
+    padding-bottom: 2em;
+    padding-top: 10em;
+}
+
+.logo {
+    height: 92px;
+    width: 272px;
+}
+
+.input {
+    width: 35em;
+    height: 2.5em;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    background-color: #f2f2f2;
+    margin-left: 0px;
+    color: rgba(0, 0, 0, .54);
+    text-align: left;
+
+}
+
+footer a {
+    color: rgba(0, 0, 0, .54);
+    
+}
+
+footer a:hover {
+    color: rgba(0, 0, 0, .54);
+}
+
+.france {
+    margin-left: 3.7em;
+    display: block;
+    border-top: 1px solid #E4E4E4;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 430;
+    margin-bottom: 0px;
+}
+
+.conditions {
+    
+    border-top: 1px solid #E4E4E4;
+    margin-left: 0px;
+    font-size: 13px;
+    font-weight: 540;
+    margin-top: 12px;
+    color: #bebbbd;
+    
+     
+}
+
+/* .btn-primary {
+    height: 33px;
+} */
 
