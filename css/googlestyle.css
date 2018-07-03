@@ -38,6 +38,7 @@ a {
 #nav_bar li {
     display: inline-block;
     padding: 5em;
+    margin-left: 5em;
 }
 
 #nav_footer {
@@ -56,11 +57,17 @@ a {
     
 }
 
+#nav_footer2 {
+    padding-left: 18em;
+
+}
+
 #nav_footer2 li {
     
     display: inline-block;
     left: 0px;
-    margin-left: 3.5em;
+    margin-left: 1.6em;
+    padding-left: 0.5em;
     margin-top: 16px;
     
 }
@@ -122,8 +129,8 @@ footer a:hover {
     
     border-top: 1px solid #E4E4E4;
     margin-left: 0px;
-    font-size: 13px;
-    font-weight: 540;
+    font-size: 12px;
+    font-weight: 650;
     margin-top: 12px;
     color: #bebbbd;
     
