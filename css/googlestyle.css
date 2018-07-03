@@ -12,7 +12,9 @@ header {
     justify-content: space-around;
     align-items: flex-end;
     align-items: center;
+    padding-left: 3em;
 }
+
 
 .search_button:hover {
     color: black;
@@ -136,6 +138,8 @@ footer a:hover {
     
      
 }
+
+
 
 /* .btn-primary {
     height: 33px;
